@@ -1,0 +1,26 @@
+{
+  "name": "realtimechat",
+  "version": "1.0.0",
+  "description": "this project is completely to enchance all my mern stack skills",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "both": "concurrently \"npm start\" \"cd.. && cd client && npm run dev\""
+  },
+  "author": "Ramakrishna",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cloudinary": "^2.5.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.1",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
